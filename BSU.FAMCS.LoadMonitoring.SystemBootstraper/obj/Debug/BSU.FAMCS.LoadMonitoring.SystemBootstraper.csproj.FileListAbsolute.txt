@@ -1,0 +1,15 @@
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\BSU.FAMCS.LoadMonitoring.SystemBootstraper.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\BSU.FAMCS.LoadMonitoring.SystemBootstraper.pdb
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\BSU.FAMCS.LoadMonitoring.DataBaseLayer.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.pdb
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\BSU.FAMCS.LoadMonitoring.DataBaseLayer.pdb
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\obj\Debug\BSU.FAMCS.LoadMonitoring.SystemBootstraper.csprojResolveAssemblyReference.cache
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\obj\Debug\BSU.FAMCS.LoadMonitoring.SystemBootstraper.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.SystemBootstraper\obj\Debug\BSU.FAMCS.LoadMonitoring.SystemBootstraper.pdb

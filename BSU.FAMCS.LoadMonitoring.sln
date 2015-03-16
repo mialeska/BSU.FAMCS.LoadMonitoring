@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSU.FAMCS.LoadMonitoring.BusinessLayer", "BSU.FAMCS.LoadMonitoring.BusinessLayer\BSU.FAMCS.LoadMonitoring.BusinessLayer.csproj", "{935D2C7D-DD1A-4184-ABAE-2696DEEFDBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSU.FAMCS.LoadMonitoring.DataBaseLayer", "BSU.FAMCS.LoadMonitoring.DataBaseLayer\BSU.FAMCS.LoadMonitoring.DataBaseLayer.csproj", "{9ECC1982-7E7A-43C6-B4F8-CA094DFE590D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSU.FAMCS.LoadMonitoring.MonitoringUI", "BSU.FAMCS.LoadMonitoring.MonitoringUI\BSU.FAMCS.LoadMonitoring.MonitoringUI.csproj", "{7CCDB50D-514E-44C0-A8D7-21B23186A7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSU.FAMCS.LoadMonitoring.StatisticCollectorApplication", "BSU.FAMCS.LoadMonitoring.StatisticCollectorApplication\BSU.FAMCS.LoadMonitoring.StatisticCollectorApplication.csproj", "{5AD589AE-6C7B-47DA-813A-06F4F839314D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSU.FAMCS.LoadMonitoring.SystemBootstraper", "BSU.FAMCS.LoadMonitoring.SystemBootstraper\BSU.FAMCS.LoadMonitoring.SystemBootstraper.csproj", "{E53A7152-D6B2-47CE-9246-4E000AB06AA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemBootstraper", "SystemBootstraper", "{9C584EAC-53D0-46EE-9336-F977C9667EC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MonitoringUI", "MonitoringUI", "{F536973A-C6FF-4166-9CDA-9D32595D4D73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{92A5C117-C7AF-446E-B22E-15E7564F2CBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBaseLayer", "DataBaseLayer", "{86EFF504-2F1E-4DBA-BB85-3EF8B20774CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StatisticCollectorApplication", "StatisticCollectorApplication", "{2879951B-E014-4563-9697-2591EAA70C7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{935D2C7D-DD1A-4184-ABAE-2696DEEFDBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935D2C7D-DD1A-4184-ABAE-2696DEEFDBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935D2C7D-DD1A-4184-ABAE-2696DEEFDBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935D2C7D-DD1A-4184-ABAE-2696DEEFDBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECC1982-7E7A-43C6-B4F8-CA094DFE590D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECC1982-7E7A-43C6-B4F8-CA094DFE590D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECC1982-7E7A-43C6-B4F8-CA094DFE590D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECC1982-7E7A-43C6-B4F8-CA094DFE590D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCDB50D-514E-44C0-A8D7-21B23186A7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCDB50D-514E-44C0-A8D7-21B23186A7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCDB50D-514E-44C0-A8D7-21B23186A7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCDB50D-514E-44C0-A8D7-21B23186A7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD589AE-6C7B-47DA-813A-06F4F839314D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD589AE-6C7B-47DA-813A-06F4F839314D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD589AE-6C7B-47DA-813A-06F4F839314D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD589AE-6C7B-47DA-813A-06F4F839314D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53A7152-D6B2-47CE-9246-4E000AB06AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53A7152-D6B2-47CE-9246-4E000AB06AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53A7152-D6B2-47CE-9246-4E000AB06AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53A7152-D6B2-47CE-9246-4E000AB06AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E53A7152-D6B2-47CE-9246-4E000AB06AA5} = {9C584EAC-53D0-46EE-9336-F977C9667EC5}
+		{7CCDB50D-514E-44C0-A8D7-21B23186A7DA} = {F536973A-C6FF-4166-9CDA-9D32595D4D73}
+		{935D2C7D-DD1A-4184-ABAE-2696DEEFDBC3} = {92A5C117-C7AF-446E-B22E-15E7564F2CBA}
+		{9ECC1982-7E7A-43C6-B4F8-CA094DFE590D} = {86EFF504-2F1E-4DBA-BB85-3EF8B20774CA}
+		{5AD589AE-6C7B-47DA-813A-06F4F839314D} = {2879951B-E014-4563-9697-2591EAA70C7F}
+	EndGlobalSection
+EndGlobal

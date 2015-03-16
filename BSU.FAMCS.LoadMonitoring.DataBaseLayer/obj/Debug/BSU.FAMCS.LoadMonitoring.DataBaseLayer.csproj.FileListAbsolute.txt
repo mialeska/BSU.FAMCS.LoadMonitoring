@@ -1,0 +1,7 @@
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.DataBaseLayer\bin\Debug\BSU.FAMCS.LoadMonitoring.DataBaseLayer.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.DataBaseLayer\bin\Debug\BSU.FAMCS.LoadMonitoring.DataBaseLayer.pdb
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.DataBaseLayer\bin\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.DataBaseLayer\bin\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.pdb
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.DataBaseLayer\obj\Debug\BSU.FAMCS.LoadMonitoring.DataBaseLayer.csprojResolveAssemblyReference.cache
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.DataBaseLayer\obj\Debug\BSU.FAMCS.LoadMonitoring.DataBaseLayer.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.DataBaseLayer\obj\Debug\BSU.FAMCS.LoadMonitoring.DataBaseLayer.pdb

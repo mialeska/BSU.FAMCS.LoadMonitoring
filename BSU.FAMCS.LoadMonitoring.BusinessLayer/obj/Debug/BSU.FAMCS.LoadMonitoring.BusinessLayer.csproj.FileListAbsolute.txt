@@ -1,0 +1,5 @@
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.BusinessLayer\bin\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.BusinessLayer\bin\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.pdb
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.BusinessLayer\obj\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.BusinessLayer\obj\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.dll
+D:\Лёша\Dakumenty\8 sem\ASP.NET MVC\BSU.FAMCS.LoadMonitoring\BSU.FAMCS.LoadMonitoring.BusinessLayer\obj\Debug\BSU.FAMCS.LoadMonitoring.BusinessLayer.pdb
