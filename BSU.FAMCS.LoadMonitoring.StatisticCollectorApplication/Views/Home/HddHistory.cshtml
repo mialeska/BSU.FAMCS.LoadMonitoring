@@ -1,0 +1,31 @@
+﻿@model System.Linq.IQueryable<BSU.FAMCS.LoadMonitoring.BusinessLayer.Model.DiskFreeSpace>
+
+@{
+    ViewBag.Title = "HddHistory";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+<h2>Hdd monitor's history:</h2> 
+<h4>last 20 results currently displayed</h4>
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Drive Name</th>
+        <th>Available space</th>
+        <th>% free from total</th>
+        <th>Total amount</th>
+        <th>Add Date | | | Time</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.HddDiskModel.VolumeLabel ( @item.HddDiskModel.DriveName )</td>
+            <td>@item.MbAvailable MB</td>
+            <td>@item.Percentage </td>
+            <td>@item.HddDiskModel.MbTotalAmount</td>
+            <td>@item.AddDateTime</td>
+        </tr>
+    }
+</table>

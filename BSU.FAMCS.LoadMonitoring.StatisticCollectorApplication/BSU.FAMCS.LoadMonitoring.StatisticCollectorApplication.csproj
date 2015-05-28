@@ -104,9 +104,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\MainMenuItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +116,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="Static\bootstrap-3.2.0-dist\css\bootstrap-theme.css" />
+    <Content Include="Static\bootstrap-3.2.0-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Static\bootstrap-3.2.0-dist\css\bootstrap.css" />
+    <Content Include="Static\bootstrap-3.2.0-dist\css\bootstrap.min.css" />
+    <Content Include="Static\bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Static\bootstrap-3.2.0-dist\js\bootstrap.js" />
+    <Content Include="Static\bootstrap-3.2.0-dist\js\bootstrap.min.js" />
+    <Content Include="Static\scripts\jquery-2.1.1.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -125,11 +135,35 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+    <Folder Include="Domain\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\RamHistory.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Main.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Static\bootstrap-3.2.0-dist\css\bootstrap-theme.css.map" />
+    <Content Include="Static\bootstrap-3.2.0-dist\css\bootstrap.css.map" />
+    <Content Include="Static\bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Static\bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Static\bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BSU.FAMCS.LoadMonitoring.BusinessLayer\BSU.FAMCS.LoadMonitoring.BusinessLayer.csproj">
+      <Project>{935D2C7D-DD1A-4184-ABAE-2696DEEFDBC3}</Project>
+      <Name>BSU.FAMCS.LoadMonitoring.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSU.FAMCS.LoadMonitoring.SystemBootstraper\BSU.FAMCS.LoadMonitoring.SystemBootstraper.csproj">
+      <Project>{E53A7152-D6B2-47CE-9246-4E000AB06AA5}</Project>
+      <Name>BSU.FAMCS.LoadMonitoring.SystemBootstraper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\HddHistory.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,27 @@
+﻿@model System.Linq.IQueryable<BSU.FAMCS.LoadMonitoring.BusinessLayer.Model.Ram>
+
+@{
+    ViewBag.Title = "RamHistory";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+<h2>Ram monitor's history:</h2> 
+<h4>last 20 results currently displayed</h4>
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Free RAM amount</th>
+        <th>Used Percentage</th>
+        <th> Add Date | | | Time</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.FreeAmount MB</td>
+            <td>@item.UsedPercentage %</td>
+            <td>@item.AddDateTime</td>
+        </tr>
+    }
+</table>

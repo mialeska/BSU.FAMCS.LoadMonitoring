@@ -39,9 +39,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Business.cs" />
+    <Compile Include="History\HistoryProvider.cs" />
+    <Compile Include="History\IHistoryProvider.cs" />
+    <Compile Include="IBusinessResources.cs" />
+    <Compile Include="IHistoryResources.cs" />
+    <Compile Include="Model\Ram.cs" />
+    <Compile Include="Model\HddDisk.cs" />
+    <Compile Include="Model\DiskFreeSpace.cs" />
+    <Compile Include="Utils\AbstractStepThread.cs" />
+    <Compile Include="Monitor\HddMonitor.cs" />
+    <Compile Include="Monitor\Interface\IHddMonitor.cs" />
+    <Compile Include="Monitor\Interface\IRamMonitor.cs" />
+    <Compile Include="Monitor\RamMonitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
