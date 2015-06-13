@@ -124,7 +124,9 @@
     <Content Include="Static\bootstrap-3.2.0-dist\js\bootstrap.js" />
     <Content Include="Static\bootstrap-3.2.0-dist\js\bootstrap.min.js" />
     <Content Include="Static\scripts\jquery-2.1.1.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
 using BSU.FAMCS.LoadMonitoring.BusinessLayer;
 using BSU.FAMCS.LoadMonitoring.BusinessLayer.Model;
@@ -13,21 +11,9 @@ namespace BSU.FAMCS.LoadMonitoring.DataBaseLayer
         public DbSet<DiskFreeSpace> DiskSpaceModels { get; set; }
         public DbSet<Ram> RamModels { get; set; }
 
-
-        public void Save(string toSave)
-        {
-            Console.WriteLine(toSave);
-        }
-
         public HddDisk GetHDiskModel(string driveName)
         {
-            var items = DiskModels.Where(it => it.DriveName == driveName);
-            if (!items.Any()) return null;
-            var enumer = items.GetEnumerator();
-            enumer.MoveNext();
-            var hdM = enumer.Current;
-            enumer.Dispose();
-            return hdM;
+            return DiskModels.SingleOrDefault(it => it.DriveName == driveName);
         }
 
         public void AddDisk(HddDisk discModel)

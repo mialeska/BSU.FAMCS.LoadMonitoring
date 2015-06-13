@@ -10,12 +10,14 @@ namespace BSU.FAMCS.LoadMonitoring.BusinessLayer.Monitor
     {
         private const int TimeToSleep = 2000;
         private readonly IBusinessResources _businessResources;
+        private readonly ILogger _logger;
         private readonly PerformanceCounter _ramAvailableCounter;
         private readonly PerformanceCounter _ramPercentageCounter;
 
-        public RamMonitor(IBusinessResources businessResources):base(TimeToSleep)
+        public RamMonitor(IBusinessResources businessResources, ILogger logger):base(TimeToSleep)
         {
             _businessResources = businessResources;
+            _logger = logger;
             _ramAvailableCounter =  new PerformanceCounter("Memory", "Available MBytes");
             _ramPercentageCounter = new PerformanceCounter("Memory", "% Committed Bytes in Use");
         }
@@ -34,10 +36,7 @@ namespace BSU.FAMCS.LoadMonitoring.BusinessLayer.Monitor
                 UsedPercentage = _ramPercentageCounter.NextValue()
             };
             _businessResources.AddRamEntry(ramModel);
-
-            var strSave = string.Format("{0}, Free {1}MB, Used{2}%", "Ram Monitor working:",
-                ramModel.FreeAmount, ramModel.UsedPercentage);
-            _businessResources.Save(strSave);
+            _logger.Save(ramModel.ToString());
         }
 
         public void Stop()

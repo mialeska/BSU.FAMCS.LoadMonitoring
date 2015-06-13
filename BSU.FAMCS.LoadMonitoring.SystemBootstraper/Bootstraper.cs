@@ -2,6 +2,7 @@
 using BSU.FAMCS.LoadMonitoring.BusinessLayer.History;
 using BSU.FAMCS.LoadMonitoring.BusinessLayer.Monitor;
 using BSU.FAMCS.LoadMonitoring.BusinessLayer.Monitor.Interface;
+using BSU.FAMCS.LoadMonitoring.BusinessLayer.Utils;
 using BSU.FAMCS.LoadMonitoring.DataBaseLayer;
 using Microsoft.Practices.Unity;
 
@@ -19,6 +20,7 @@ namespace BSU.FAMCS.LoadMonitoring.SystemBootstraper
             Container.RegisterType<IRamMonitor, RamMonitor>();
             Container.RegisterType<IHddMonitor, HddMonitor>();
             Container.RegisterType<IHistoryProvider, HistoryProvider>();
+            Container.RegisterType<ILogger, Logger>();
         }
 
         public static IHddMonitor GetHddMonitor()

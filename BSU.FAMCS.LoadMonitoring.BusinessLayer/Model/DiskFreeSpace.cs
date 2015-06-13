@@ -11,5 +11,13 @@ namespace BSU.FAMCS.LoadMonitoring.BusinessLayer.Model
         
         public int HddDiskId { get; set; }
         public virtual HddDisk HddDiskModel { get; set; }
+
+        public override string ToString()
+        {
+            var result = string.Format("{0} {6}({1}) {2}MB free, {3}% free, {4}MB Total, {5}", "HardDiskMonitor working:",
+                    HddDiskModel.DriveName, MbAvailable, Percentage, HddDiskModel.MbTotalAmount, AddDateTime.ToString("HH:mm:ss tt"),
+                    HddDiskModel.VolumeLabel);
+            return result;
+        }
     }
 }

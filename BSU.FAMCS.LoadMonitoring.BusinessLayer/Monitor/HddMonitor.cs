@@ -10,13 +10,12 @@ namespace BSU.FAMCS.LoadMonitoring.BusinessLayer.Monitor
     {
         private const int TimeToSleep = 2000;
         private readonly IBusinessResources _businessResources;
-        //private readonly PerformanceCounter _hddCounter;
+        private readonly ILogger _logger;
 
-        public HddMonitor(IBusinessResources iBusiness): base(TimeToSleep)
+        public HddMonitor(IBusinessResources iBusiness, ILogger logger): base(TimeToSleep)
         {
             _businessResources = iBusiness;
-            //_hddCounter = new PerformanceCounter("Логический диск", "% свободного места", "C:");
-            //_hddCounter.NextValue();
+            _logger = logger;
         }
 
         public void Start()
@@ -44,11 +43,8 @@ namespace BSU.FAMCS.LoadMonitoring.BusinessLayer.Monitor
                     };
                     //this should set the ID
                     _businessResources.AddDisk(curHddModel);
-                    var str = string.Format("{0} {1} {2}", "\nHardDiskMonitor find new disk",
-                    curHddModel.DriveName, curHddModel.AddDateTime.ToString("HH:mm:ss tt"));
-                    _businessResources.Save(str);
+                    _logger.Save(curHddModel.ToString());
                 }
-                //_hddCounter.InstanceName = curHddModel.DriveName;
 
                 var diskFreespaceModel = new DiskFreeSpace
                 {
@@ -58,13 +54,8 @@ namespace BSU.FAMCS.LoadMonitoring.BusinessLayer.Monitor
                     MbAvailable = (int)(drive.AvailableFreeSpace/1024/1024)
                 };
                 diskFreespaceModel.Percentage =(double) diskFreespaceModel.MbAvailable / curHddModel.MbTotalAmount;
-                //diskFreespaceModel.Percentage = _hddCounter.NextValue();
                 _businessResources.AddDiskFreeSpaceEntry(diskFreespaceModel);
-
-                var strSave = string.Format("{0} {6}({1}) {2}MB free, {3}% free, {4}MB Total, {5}", "HardDiskMonitor working:",
-                    curHddModel.DriveName, diskFreespaceModel.MbAvailable, diskFreespaceModel.Percentage, curHddModel.MbTotalAmount, diskFreespaceModel.AddDateTime.ToString("HH:mm:ss tt"), 
-                    curHddModel.VolumeLabel);
-                _businessResources.Save(strSave);
+                _logger.Save(diskFreespaceModel.ToString());
             }
         }
 

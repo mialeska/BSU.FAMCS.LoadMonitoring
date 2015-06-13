@@ -1,5 +1,4 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Threading;
 
 namespace BSU.FAMCS.LoadMonitoring.BusinessLayer.Utils
@@ -48,12 +47,10 @@ namespace BSU.FAMCS.LoadMonitoring.BusinessLayer.Utils
             _doContinueThread = false;
             Thread.Join();
         }
+
         /// <summary>
         /// This method should be overriden by child classes
         /// </summary>
-        protected virtual void DoStep()
-        {
-            Console.WriteLine("Thread's step was not found");
-        }
+        protected abstract void DoStep();
     }
 }

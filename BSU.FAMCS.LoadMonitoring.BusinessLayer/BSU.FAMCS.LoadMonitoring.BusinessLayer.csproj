@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILogger.cs" />
     <Compile Include="History\HistoryProvider.cs" />
     <Compile Include="History\IHistoryProvider.cs" />
     <Compile Include="IBusinessResources.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="Monitor\Interface\IRamMonitor.cs" />
     <Compile Include="Monitor\RamMonitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Logger.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
